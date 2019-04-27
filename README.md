@@ -1,16 +1,32 @@
 # AngularCodeTestPets
 
-This application consume the json(http://5c92dbfae7b1a00014078e61.mockapi.io/owners) and output a list of all the cats in alphabetical order under a heading of the gender of their owner.
+This application consume the json (http://5c92dbfae7b1a00014078e61.mockapi.io/owners) and output a list of all the cats in alphabetical order under a heading of the gender of their owner.
 
+## Getting Started
+
+Clone the project 
+```bash
+git clone 'https://github.com/mahesh-k-s/agl-test.git'
+```
+or
+
+download the zip and extract to a local directory
+
+## Installing
+
+```bash
+
+# install dependencies 
+npm install
 
 
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
+## Output
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+![alt tag](https://github.com/ShivaMssk/AngularCodeTestPets/blob/master/src/assets/output.png)
 
 ## Build
 
@@ -20,10 +36,13 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 
 Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
+![alt tag](https://github.com/ShivaMssk/AngularCodeTestPets/blob/master/src/assets/unitTest.png)
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
-## Further help
+## Built With
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+- Angular [`~7.2.0`]
+- Typescript [`~3.2.2`]
+- Bootstrap [`^4.3.1`]
+- Karma [`~4.0.0`]
+
