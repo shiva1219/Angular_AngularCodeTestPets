@@ -1,6 +1,8 @@
 # AngularCodeTestPets
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.8.
+This application consume the json(http://5c92dbfae7b1a00014078e61.mockapi.io/owners) and output a list of all the cats in alphabetical order under a heading of the gender of their owner.
+
+
 
 ## Development server
 

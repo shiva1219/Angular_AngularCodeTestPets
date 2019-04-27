@@ -1,12 +1,17 @@
 import { TestBed } from '@angular/core/testing';
-
+import { HttpClientTestingModule } from '@angular/common/http/testing';
 import { DataService } from './data.service';
 
-describe('DataService', () => {
-  beforeEach(() => TestBed.configureTestingModule({}));
+describe('PostService', () => {
+  beforeEach(() => TestBed.configureTestingModule({
+    imports: [HttpClientTestingModule],
+      providers: [DataService]
+  }));
 
-  it('should be created', () => {
+  it('Service should be created and get the response', () => {
     const service: DataService = TestBed.get(DataService);
-    expect(service).toBeTruthy();
+    service.getOwners().subscribe(data => {
+      expect(data).toBe(Object);
+    });
   });
 });
