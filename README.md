@@ -12,32 +12,46 @@ or
 
 download the zip and extract to a local directory
 
-## Installing
+
 
 ```bash
 
-# install dependencies 
-npm install
+## install dependencies 
 
+npm install
+```
+
+```bash
 
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+```
+
+```bash
 
 ## Output
+```
 
-![alt tag](https://github.com/ShivaMssk/AngularCodeTestPets/blob/master/src/assets/output.png)
+![alt text](https://github.com/ShivaMssk/AngularCodeTestPets/blob/master/src/assets/output.PNG)
+
+```bash
 
 ## Build
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+```
+
+```bash
 
 ## Running unit tests
 
 Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+```
 
-![alt tag](https://github.com/ShivaMssk/AngularCodeTestPets/blob/master/src/assets/unitTest.png)
+![alt text](https://github.com/ShivaMssk/AngularCodeTestPets/blob/master/src/assets/unitTest.PNG)
 
+```bash
 
 ## Built With
 
@@ -45,4 +59,4 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 - Typescript [`~3.2.2`]
 - Bootstrap [`^4.3.1`]
 - Karma [`~4.0.0`]
-
+```
