@@ -6,7 +6,7 @@ This application consume the json (http://5c92dbfae7b1a00014078e61.mockapi.io/ow
 
 Clone the project 
 ```bash
-git clone 'https://github.com/mahesh-k-s/agl-test.git'
+git clone 'https://github.com/ShivaMssk/AngularCodeTestPets.git'
 ```
 or
 
