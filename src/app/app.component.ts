@@ -25,6 +25,7 @@ export class AppComponent implements OnInit{
           alert("unexpected error");
           console.log(error);
         });
+    
   }
 
   // The getPetsData function process the object based on petType arrgument and assigns data into given arrays.

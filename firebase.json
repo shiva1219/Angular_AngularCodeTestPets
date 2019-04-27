@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "dist\\AngularCodeTestPets",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
